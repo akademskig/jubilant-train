@@ -14,3 +14,8 @@ export const selectCartItemsCount = createSelector(
             (accumulatedQuantity, cartItem) => accumulatedQuantity + cartItem.quantity, 0
         )
 )
+
+export const selectCardHidden = createSelector(
+    [selectCart],
+    cart=> cart.hidden
+)
