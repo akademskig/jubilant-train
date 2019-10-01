@@ -28,3 +28,9 @@ a {
   width: 90%;
   margin: auto;
 }
+
+#root{
+  background-image: url("/logo.svg");
+  min-height: 100vh;
+  background-size: cover;
+}
