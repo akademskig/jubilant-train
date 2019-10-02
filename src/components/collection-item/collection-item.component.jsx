@@ -4,8 +4,7 @@ import "./collection-item.styles.scss";
 import CustomButton from "../custom-button/custom-button.component";
 import { addItemToCart } from "../../redux/cart/cart.action";
 
-const CollectionItem = ({ item, addItem }) => {
-
+const CollectionItem = ({ key, item, addItem }) => {
     const { name, price, imageUrl } = item
     return (
         <div className="collection-item">

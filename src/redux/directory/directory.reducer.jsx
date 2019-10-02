@@ -4,33 +4,33 @@ const INITIAL_STATE = {
             "title": "jackets",
             "imageUrl": "https://picsum.photos/id/:imageId/200",
             "id": 1,
-            "link": "jackets"
+            "link": "shop/jackets"
         },
         {
-            "title": "pants",
+            "title": "hats",
             "imageUrl": "https://picsum.photos/id/:imageId/200",
             "id": 2,
-            "link": "pants"
+            "link": "shop/hats"
         },
         {
             "title": "mens",
             "imageUrl": "https://picsum.photos/id/:imageId/200",
             "id": 3,
-            "link": "mens"
+            "link": "shop/mens"
         },
         {
             "title": "womens",
             "imageUrl": "https://picsum.photos/id/:imageId/200",
             "id": 4,
             "size": "large",
-            "link": "womens"
+            "link": "shop/womens"
         },
         {
             "title": "sneakers",
             "imageUrl": "https://picsum.photos/id/251/200",
             "id": 5,
             "size": "large",
-            "link": "sneakers"
+            "link": "shop/sneakers"
         }
     ]
 }

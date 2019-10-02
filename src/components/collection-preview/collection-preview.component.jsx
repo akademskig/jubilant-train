@@ -5,10 +5,10 @@ import CollectionItem from "../collection-item/collection-item.component"
 const CollectionPreview = ({ title, items }) => (
     <div className="collection-preview">
         <h1 className="title">
-            {title.toUpperCase()}
+            { title.toUpperCase()}
         </h1>
         <div className="preview">
-            {
+            { // ad carousel
                 items
                     .filter((_, idx) => idx < 4)
                     .map((item) => (
