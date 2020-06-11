@@ -12,7 +12,7 @@ export const HeaderContainer = styled.div`
     justify-content: space-between;
     margin-bottom: 25px;
 `
-export const LogoContainer = styled(Link)`
+export const LogoContainer = styled.div`
     height: 100%;
     width: 70px;
     padding: 25px;
