@@ -11,7 +11,7 @@ const shopReducer = (state = INITIAL_STATE, action) => {
             case ShopActionTypes.UPDATE_COLLECTIONS:
                 return{
                     ...state,
-                    collections: action.payload
+                    collection: action.payload
                 }
     }
 }
